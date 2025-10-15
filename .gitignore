@@ -1,0 +1,92 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+
+# =========================
+# Poetry
+# =========================
+# poetry.lock
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs & Reports
+# =========================
+*.log
+*.out
+*.err
+logs/
+debug.log
+coverage.xml
+*.cover
+htmlcov/
+.coverage*
+.pytest_cache/
+
+# =========================
+# Test & Coverage
+# =========================
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.coverage
+.coverage.*
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Docker
+# =========================
+docker/*.log
+docker/tmp/
+docker/dist/
+docker/__pycache__/
+**/__pycache__/
+*.pid
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini

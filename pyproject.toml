@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "samurai-tasks"
+version = "1.0.0"
+description = "Event-driven task orchestration system with transactional outbox, FastAPI, Redis Streams and Postgres"
+authors = ["Salar (هوشنگ) <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "app" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.0"
+SQLAlchemy = "^2.0.34"
+asyncpg = "^0.29.0"
+redis = "^5.1.1"  # redis-py with asyncio support
+pydantic = "2.9.2"
+pydantic-core = "2.23.4"
+python-dotenv = "^1.0.0"
+prometheus-client = "^0.21.0"
+structlog = "^23.3.0"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.2"
+pydantic-settings = "^2.11.0"
+greenlet = "^3.2.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.0"
+httpx = "^0.25.0"
+testcontainers = "^4.7.0"
+black = "^24.3.0"
+ruff = "^0.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
