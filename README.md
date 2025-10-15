@@ -95,4 +95,4 @@ Salar Rezaei >
 Software engineer | Python, Django, FastAPI | 武士道
 
 - 💼 LinkedIn: [salar-rezaei](https://www.linkedin.com/in/salar-rezaei/)
-- 📧 Email: [salarrezaei26@gmail.com](salarrezaei26@gmail.com)
+- 📧 Email: salarrezaei26@gmail.com
