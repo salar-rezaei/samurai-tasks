@@ -1,16 +1,19 @@
 # 🥷 Samurai Tasks
 
-Event-driven task orchestration system built with **FastAPI**, **Redis Streams**, and **PostgreSQL**, following a **Transactional Outbox** pattern for reliable event delivery.
+Event-driven task orchestration system built with **FastAPI**, **Redis Streams**, and **PostgresSQL**, following a
+**Transactional Outbox** pattern for reliable event delivery and **distributed Locking** with Redis.
 
 ---
 
 ## 🚀 Features
 
 - **Event-driven architecture** using Redis Streams as message bus  
-- **Transactional outbox** for guaranteed delivery of domain events  
+- **Transactional outbox** for guaranteed delivery of domain events
+- **Distributed Redis Lock** for concurrency control and race condition prevention  
+- **atomic task execution** across distributed workers
 - **Asynchronous workers** for background task processing  
 - **FastAPI** for HTTP APIs  
-- **PostgreSQL** as the main persistence layer  
+- **PostgresSQL** as the main persistence layer  
 - **Structured logging** with `structlog`  
 - **Prometheus metrics** ready for observability  
 
